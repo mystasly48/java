@@ -57,9 +57,9 @@ public class IF {
       System.out.println("“ü—Í‚È‚µ");
     } else {
       if (args.length % 2 == 0) {
-        System.out.println("‹ô”’l");
+        System.out.println("‹ô”ŒÂ");
       } else {
-        System.out.println("Šï”’l");
+        System.out.println("Šï”ŒÂ");
       }
     }
   }
