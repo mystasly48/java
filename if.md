@@ -33,3 +33,36 @@ if (条件式) {
   // false の処理
 }
 ```
+
+## コード例
+
+「入力あり」「入力なし」を処理する
+```java
+public class IF {
+  public static void main(String[] args) {
+    if (args.length == 0) {
+      System.out.println("入力なし");
+    } else {
+      System.out.println("入力あり");
+    }
+  }
+}
+```
+
+ネスト（入れ子）を使った分岐
+```java
+public class IF {
+  public static void main(String[] args) {
+    if (args.length == 0) {
+      System.out.println("入力なし");
+    } else {
+      if (args.length % 2 == 0) {
+        System.out.println("偶数値");
+      } else {
+        System.out.println("奇数値");
+      }
+    }
+  }
+}
+```
+```
