@@ -28,18 +28,22 @@ switch (intŒ^‚Ì®) {
 ## ƒR[ƒh—á
 
 ```java
-switch (args.length) {
-  case 0:
-    System.out.println("ˆø”‚È‚µ");
-    break;
-  case 1:
-    System.out.println("ˆø”‚P‚Â");
-    break;
-  case 2:
-    System.out.println("ˆø”‚Q‚Â");
-    break;
-  default:
-    System.out.println("ˆø”‚½‚­‚³‚ñ");
-    break;
+public class Switch {
+  public static void main(String[] args) {
+    switch (args.length) {
+      case 0:
+        System.out.println("ˆø”‚È‚µ");
+        break;
+      case 1:
+        System.out.println("ˆø”‚P‚Â");
+        break;
+      case 2:
+        System.out.println("ˆø”‚Q‚Â");
+        break;
+      default:
+        System.out.println("ˆø”‚½‚­‚³‚ñ");
+        break;
+    }
+  }
 }
 ```
