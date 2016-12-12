@@ -58,3 +58,16 @@
  2. オブジェクト型の変数 ＝ オブジェクトそのものは入れておらず、オブジェクトがあるｂ佐用を示す値が入っている
   
 ※変数定義＋インスタンス化＋値の代入
+
+## オブジェクト型を使ったプログラム
+
+1. StringBuilder を用いて文字列の末尾に文字列を連結
+
+2. コード例
+```java
+StringBuilder sb = new StringBuilder():
+sb.append("I'm");
+sb.append(" a");
+sb.append(" Coder!");
+System.out.println(sb.toString());
+```
